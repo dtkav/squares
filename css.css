@@ -1,0 +1,36 @@
+div {
+	color: #ccc;
+}
+
+#container {
+	-webkit-perspective: 900;
+
+}
+
+#skew {
+	margin-left: 220px;
+	margin-right: auto;
+	height: 200px;
+	width: 200px;
+	-webkit-transform: rotate(-45deg) skew(15deg, 15deg);
+	-webkit-transform-style: preserve-3d;
+}
+
+.sqr {
+	height: 18px;
+	width: 18px;
+	border: 1px solid #ccc;
+	float: left;
+}
+
+#sbox {
+	overflow: hidden;
+	border: 5px solid black;
+	width: 33px;
+	height: 45px;
+	
+}
+
+#sprite {
+	margin-left: -50px;
+}
